@@ -1,0 +1,24 @@
+﻿@*@model IEnumerable<Address_Book.Models.Product>*@
+
+@{
+    ViewBag.Title = "Address Book";
+}
+
+
+<div class="form pt-3">
+    <div class="col-md-12 border shadow bg-light card pt-3 pb-5 p-2" style="min-height: 80vh">
+        <div class="card-header mb-3" 
+             style="background-color: #f3f3f3 !important;">
+            <h4>Address Book</h4>
+            <p class="text-dark">Enter your contacts into address book, store and retrieve them later.</p>
+            <p>
+                <a class="btn btn-primary me-4" href="AddressBooks">Go to Contacts</a>
+                <a class="btn btn-dark" href="AddressBooks/Create">New Contacts</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+}
